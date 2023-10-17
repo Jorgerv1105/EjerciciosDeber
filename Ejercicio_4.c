@@ -10,3 +10,13 @@ int main(void) {
 //Creamos el bucle hasta que se cumpla la condicion mostrada y varios parametros
   do {
     scanf("%i", &numero);
+if (numero != 0) {
+      suma += numero;
+      contador++;
+
+      if (numero % 10 == 5) {
+        printf("El número %i termina en 5.\n", numero);
+        terminadosEn5++;
+      }
+    }
+  } while (numero != 0);
