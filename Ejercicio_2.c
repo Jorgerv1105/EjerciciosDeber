@@ -6,3 +6,7 @@ int main(void) {
 //Inicializacion de las variables
   int numero;
 //Damos un mensaje inicial para dar un valor a nuestra variable
+ printf("Programa que muestra los números múltiplos de 5\n");
+  printf("Ingrese un número: ");
+  scanf("%i", &numero);
+  //Creamos el bucle hasta que se cumpla la condicion mostrada y varios parametros
