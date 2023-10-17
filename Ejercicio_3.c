@@ -21,5 +21,6 @@ contador = 0;
 
   printf("El número %i tiene %i dígitos '1'.\n", originalNumero, contador);
 
+  printf("\nGracias por utilizar el programa");
   return 0;
 }
