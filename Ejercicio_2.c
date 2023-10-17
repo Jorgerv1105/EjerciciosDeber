@@ -9,4 +9,12 @@ int main(void) {
  printf("Programa que muestra los números múltiplos de 5\n");
   printf("Ingrese un número: ");
   scanf("%i", &numero);
-  //Creamos el bucle hasta que se cumpla la condicion mostrada y varios parametros
+//Creamos el bucle hasta que se cumpla la condicion mostrada y varios parametros
+  for (int i = 1; i <= numero; i++) {
+    if (i % 5 == 0) {
+      printf("El número %i es múltiplo de 5\n", i);
+    }
+  }
+
+  return 0;
+}
