@@ -16,5 +16,10 @@ int main(void) {
     for (i = --a; i > b; i--) {
       printf("El resultado es: %i\n", i);
     }
+  } else {
+    for (i = ++a; i < b; i++) {
+      printf("El resultado es: %i\n", i);
+    }
+  }
   return 0;
 }
