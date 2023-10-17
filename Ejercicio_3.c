@@ -16,3 +16,10 @@ contador = 0;
     if (numero % 10 == 1) {
       contador++;
     }
+    numero /= 10;
+  }
+
+  printf("El número %i tiene %i dígitos '1'.\n", originalNumero, contador);
+
+  return 0;
+}
