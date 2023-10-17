@@ -21,5 +21,6 @@ int main(void) {
       printf("El resultado es: %i\n", i);
     }
   }
+  printf("\nGracias por utilizar el programa");
   return 0;
 }
