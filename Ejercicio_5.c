@@ -11,3 +11,8 @@ int main() {
       printf("%d No es un numero de dos digitos \n", numero);
       return 0;
   }
+  // Verificar si el número es igual a 0 o 1 (casos especiales)
+    if (numero == 0 || numero == 1) {
+        printf("%d pertenece a la serie de Fibonacci.\n", numero);
+        return 0;
+    }
