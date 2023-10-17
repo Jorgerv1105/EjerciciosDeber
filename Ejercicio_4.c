@@ -20,3 +20,18 @@ if (numero != 0) {
       }
     }
   } while (numero != 0);
+if (contador > 0) {
+    promedio = suma / contador;
+    printf("Promedio de los números ingresados: %i\n", promedio);
+
+    if (terminadosEn5 > 0) {
+      printf("Se ingresaron %i números terminados en 5.\n", terminadosEn5);
+    } else {
+      printf("No se ingresaron números terminados en 5.\n");
+    }
+  } else {
+    printf("No se ingresaron números válidos.\n");
+  }
+
+  return 0;
+}
