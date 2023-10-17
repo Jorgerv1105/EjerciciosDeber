@@ -5,3 +5,9 @@
 int main(void) {
 //Inicializacion de las variables
   int numero, contador;
+contador = 0;
+//Damos un mensaje inicial para dar un valor a nuestra variable
+  printf("Ingrese un número: ");
+  scanf("%i", &numero);
+
+  int originalNumero = numero;
