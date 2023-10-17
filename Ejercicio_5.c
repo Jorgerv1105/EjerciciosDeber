@@ -16,3 +16,13 @@ int main() {
         printf("%d pertenece a la serie de Fibonacci.\n", numero);
         return 0;
     }
+// Generar la serie de Fibonacci y verificar si el número está en ella
+    while (a + b <= numero) {
+        c = a + b;
+        if (c == numero) {
+            printf("%d pertenece a la serie de Fibonacci.\n", numero);
+            return 0;
+        }
+        a = b;
+        b = c;
+    }
