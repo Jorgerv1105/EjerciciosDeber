@@ -32,6 +32,6 @@ if (contador > 0) {
   } else {
     printf("No se ingresaron números válidos.\n");
   }
-
+    printf("\nGracias por utilizar el programa");
   return 0;
 }
