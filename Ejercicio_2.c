@@ -15,6 +15,6 @@ int main(void) {
       printf("El número %i es múltiplo de 5\n", i);
     }
   }
-
+  printf("\nGracias por utilizar el programa");
   return 0;
 }
