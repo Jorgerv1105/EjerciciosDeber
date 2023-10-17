@@ -4,3 +4,10 @@
 //Inicializacion de variables 
 int main() {
     int numero, a = 0, b = 1, c;
+//Damos un mensaje inicial para dar un valor a nuestra variable
+    printf("Ingrese un número de dos dígitos: ");
+    scanf("%d", &numero);
+  if (numero <= 10 || numero >= 99) {
+      printf("%d No es un numero de dos digitos \n", numero);
+      return 0;
+  }
