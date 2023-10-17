@@ -11,3 +11,8 @@ contador = 0;
   scanf("%i", &numero);
 
   int originalNumero = numero;
+//Creamos el bucle hasta que se cumpla la condicion mostrada y varios parametros
+  while (numero > 0) {
+    if (numero % 10 == 1) {
+      contador++;
+    }
