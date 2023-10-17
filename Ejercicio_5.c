@@ -26,3 +26,9 @@ int main() {
         a = b;
         b = c;
     }
+
+    printf("%d no pertenece a la serie de Fibonacci.\n", numero);
+
+    printf("\nGracias por utilizar el programa");
+    return 0;
+}
